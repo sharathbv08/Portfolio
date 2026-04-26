@@ -63,7 +63,8 @@ const Work = () => {
       currentIndex === projects.length - 1 ? 0 : currentIndex + 1;
     goToSlide(newIndex);
   }, [currentIndex, goToSlide]);
-
+  
+const project = projects[currentIndex];
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -98,36 +99,38 @@ const Work = () => {
                 transform: `translateX(-${currentIndex * 100}%)`,
               }}
             >
-              {projects.map((project, index) => (
-                <div className="carousel-slide" key={index}>
-                  <div className="carousel-content">
-                    <div className="carousel-info">
-                      <div className="carousel-number">
-                        <h3>0{index + 1}</h3>
-                      </div>
-                      <div className="carousel-details">
-                        <h4>{project.name}</h4>
+              <div className="carousel-slide">
+  <div className="carousel-content">
 
-<p className="carousel-category">
-  {project.description}
-</p>
+    <div className="carousel-info">
+      <div className="carousel-number">
+        <h3>{currentIndex + 1}</h3>
+      </div>
 
-<div className="carousel-tools">
-  <span className="tools-label">Skills</span>
-  <p>{project.tags.join(", ")}</p>
+      <div className="carousel-details">
+        <h4>{project.name}</h4>
+
+        <p className="carousel-category">
+          {project.description}
+        </p>
+
+        <div className="carousel-tools">
+          <span className="tools-label">Skills</span>
+          <p>{project.tags.join(", ")}</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="carousel-image-wrapper">
+      <WorkImage
+        image={project.image}
+        alt={project.name}
+        link={project.link}
+      />
+    </div>
+
+  </div>
 </div>
-                      </div>
-                    </div>
-                    <div className="carousel-image-wrapper">
-                      <WorkImage
-                        image={project.image}
-                        alt={project.name} 
-                        link={project.link}
-                      />
-                    </div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
 
