@@ -5,32 +5,36 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    name: "REME — Mental Wellness Counselling App",
+    description:
+      "Designed a safe and structured mental wellness platform enabling students to express, reflect, and seek help through guided conversations, counselling flows, and anonymous support.",
+    tags: ["UX Design", "User Research", "Interaction Design"],
+    image: "/images/reme.png",
+    link: "https://www.behance.net/gallery/238710231/REME-Mental-wellness-counselling-app",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    name: "SEVAK — Digitally Enhanced Porter Service",
+    description:
+      "Redesigned the railway porter service experience to improve accessibility, booking efficiency, and reduce passenger friction during high-pressure travel situations.",
+    tags: ["Service Design", "UX Strategy", "User Flow"],
+    image: "/images/sevak.png",
+    link: "https://www.behance.net/gallery/238676481/SEVAK-Digitally-enhanced-porter-service-system",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    name: "ProSecure — Safety & Monitoring Platform",
+    description:
+      "Designed a digital solution focused on enhancing security monitoring, improving situational awareness, and enabling faster response through intuitive dashboards.",
+    tags: ["Dashboard Design", "UX/UI", "Problem Solving"],
+    image: "/images/prosecure.png",
+    link: "https://www.behance.net/gallery/235714553/Pro-secure",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    name: "Urban Bloom — Smart Plant Care Experience",
+    description:
+      "Created a user-friendly plant care system that simplifies maintenance, tracking, and engagement, making urban gardening more accessible and intuitive.",
+    tags: ["Product Design", "UX Design", "User Experience"],
+    image: "/urbanbloom.png",
+    link: "https://www.behance.net/gallery/235689193/Urban-bloom",
   },
 ];
 
@@ -102,20 +106,22 @@ const Work = () => {
                         <h3>0{index + 1}</h3>
                       </div>
                       <div className="carousel-details">
-                        <h4>{project.title}</h4>
-                        <p className="carousel-category">
-                          {project.category}
-                        </p>
-                        <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
-                          <p>{project.tools}</p>
-                        </div>
+                        <h4>{project.name}</h4>
+
+<p className="carousel-category">
+  {project.description}
+</p>
+
+<div className="carousel-tools">
+  <span className="tools-label">Skills</span>
+  <p>{project.tags.join(", ")}</p>
+</div>
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
                       <WorkImage
                         image={project.image}
-                        alt={project.title}
+                        alt={project.name} 
                         link={project.link}
                       />
                     </div>

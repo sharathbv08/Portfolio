@@ -43,17 +43,15 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
+          SBV
         </a>
-        <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
-          className="navbar-connect"
-          data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
-        >
-          linkedin.com/in/akashrmalhotra
-        </a>
+        <a 
+  href="https://linkedin.com/in/ar-sharath-bv-b41961257"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  linkedin.com/in/ar-sharath-bv-b41961257
+</a>
         <ul>
           <li>
             <a data-href="#about" href="#about">

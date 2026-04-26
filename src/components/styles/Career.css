@@ -242,3 +242,10 @@
     justify-content: left;
   }
 }
+.career-year {
+  font-size: clamp(16px, 1.8vw, 24px) !important;
+  font-weight: 500;
+  white-space: nowrap;
+  display: inline-block;
+  opacity: 0.75;
+}

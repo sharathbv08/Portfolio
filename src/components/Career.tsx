@@ -15,58 +15,64 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>UI/UX Designer</h4>
+                <h5>Navriti Technologies</h5>
               </div>
-              <h3>NOW</h3>
+              <h3 className="career-year">Now</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Led the end-to-end design of core product features, delivering over 35+ screens including
+              userflow, wireframes, and high fidelity prototypes. Simplified complex workflow by
+              restructuring information architecture, improving navigation clarity during internal
+              testing. Collaborated closely with developers and product managers to ensure a smooth
+              design-to-development handoff, reducing iteration cycles and improving overall efficiency.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>UX Designer</h4>
+                <h5>Galamine AI</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3 className="career-year">05/2025–12/2025</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Designed AI-powered dashboards and interface by translating complex techincal workflows
+              into intuitive user experience. Enhanced usability of data-heavy screens through structured
+              layouts and well-defined interaction patterns. Strengthened design consistency by developing
+              reusable UI components and collaborating closely with developers to ensure accurate implementation.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Design Consultant</h4>
+                <h5>Freelance </h5>
               </div>
-              <h3>2016–17</h3>
+              <h3 className="career-year">01/2025–05/2025</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Delivered end-to-end UX solutions for multiple client projects, spanning user research, 
+              wireframing, and high-fidelity design. Designed responsive web interfaces focused on 
+              usability, clarity, and seamless user flows. Managed parallel projects efficiently, 
+              integrating user feedback into iterative design improvements to enhance overall product experience.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Architectural Intern</h4>
+                <h5>VA Group</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3 className="career-year">2023–2024</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Assisted in developing spatial layouts, floor plans, and architectural documentation
+          across ongoing projects. Contributed to 3D modeling and presentation workflows,
+              nsuring clarity in design communication. Built a strong foundation in structured 
+              problem-solving and user-centered spatial design, shaping a systematic approach
+              that translates into my UX design practice.
+
             </p>
           </div>
         </div>

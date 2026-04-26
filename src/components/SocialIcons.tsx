@@ -1,9 +1,5 @@
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiBehance } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -59,42 +55,27 @@ const SocialIcons = () => {
   return (
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
+      
         <span>
-          <a
-            href="https://github.com/akashrmalhotra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.linkedin.com/in/akashrmalhotra/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedinIn />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.youtube.com/@Leftbraincoder"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaYoutube />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </span>
+  <a
+    href="https://linkedin.com/in/ar-sharath-bv-b41961257"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <FaLinkedinIn />
+  </a>
+</span>
+
+<span>
+  <a
+    href="https://www.behance.net/sharathbv"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <SiBehance />
+  </a>
+</span>
+        
       </div>
       <a
         className="resume-button"
