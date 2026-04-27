@@ -1,9 +1,9 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiBehance } from "react-icons/si";
 import "./styles/SocialIcons.css";
-import { TbNotes } from "react-icons/tb";
+
 import { useEffect } from "react";
-import HoverLinks from "./HoverLinks";
+
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -77,17 +77,7 @@ const SocialIcons = () => {
 </span>
         
       </div>
-      <a
-        className="resume-button"
-        href="/Akash_Malhotra.pdf"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <HoverLinks text="RESUME" />
-        <span>
-          <TbNotes />
-        </span>
-      </a>
+      
     </div>
   );
 };
